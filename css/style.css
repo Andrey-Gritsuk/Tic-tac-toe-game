@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-space {
+    height: 155px;
+    width: 155px;
+    text-align: center;
+    padding-top: 3px;
+    /* background-color: red; */
+}
+
+.game-space div {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: -3px;
+    margin-bottom: -3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.game-space div span{
+    position: absolute;
+    /* font-size: 1em; */
+    /* display: inline-block; */
+}
